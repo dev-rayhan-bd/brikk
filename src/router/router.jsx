@@ -90,10 +90,10 @@ const router = createBrowserRouter([
         path: "/accountSuspension",
         element: <AccountSuspention/>,
       },
-      {
-        path: "/referralProgram",
-        element: <Refferal/>,
-      },
+      // {
+      //   path: "/referralProgram",
+      //   element: <Refferal/>,
+      // },
       {
         path: "/profileStatus",
         element: <ProfileStatus/>,
@@ -117,11 +117,11 @@ const router = createBrowserRouter([
       {
         path: "/setting/terms",
         element: <Terms/>,
-      },
-      {
-        path: "/setting/affiliate",
-        element: <Affiliate/>,
-      },
+      }
+      // {
+      //   path: "/setting/affiliate",
+      //   element: <Affiliate/>,
+      // },
      
     ],
   },
